@@ -1,0 +1,64 @@
+{
+    "configVersion": 1,
+    "index": "/rss-reader/index.html",
+    "assetGroups": [{
+            "name": "app",
+            "installMode": "prefetch",
+            "updateMode": "prefetch",
+            "urls": [
+                "/rss-reader/favicon.ico",
+                "/rss-reader/index.html",
+                "/rss-reader/main.ac10515a08022fd1fe57.js",
+                "/rss-reader/polyfills.c6871e56cb80756a5498.js",
+                "/rss-reader/runtime.ec2944dd8b20ec099bf3.js",
+                "/rss-reader/styles.f6a1cc752575ac7d6963.css"
+            ],
+            "patterns": []
+        },
+        {
+            "name": "assets",
+            "installMode": "lazy",
+            "updateMode": "prefetch",
+            "urls": [
+                "/rss-reader/assets/browserconfig.xml",
+                "/rss-reader/assets/favicon.ico",
+                "/rss-reader/assets/fur-boot-green.svg",
+                "/rss-reader/assets/safari-pinned-tab.svg"
+            ],
+            "patterns": []
+        }
+    ],
+    "dataGroups": [],
+    "hashTable": {
+
+        "/rss-reader/assets/browserconfig.xml": "8b69da84500a2ab28848ab2ba2f9c7eb43808f07",
+
+        "/rss-reader/assets/favicon.ico": "51f83552d6bd2f73fb09d202efbb4a903443ca29",
+        "/rss-reader/assets/fur-boot-green.svg": "3521d21afa85e3e04967c11a085d8604f121438b",
+
+        "/rss-reader/assets/safari-pinned-tab.svg": "13bc5229bb93681b6c99b120d697e23626be9029",
+        "/rss-reader/favicon.ico": "51f83552d6bd2f73fb09d202efbb4a903443ca29",
+        "/rss-reader/index.html": "6547ca49bedda67b6db299a0da22f6b706a08e08",
+        "/rss-reader/main.ac10515a08022fd1fe57.js": "a093882b71542a88e8e2cb839ccadb82aeee3091",
+        "/rss-reader/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+        "/rss-reader/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+        "/rss-reader/styles.f6a1cc752575ac7d6963.css": "1beb0f0a8d364532e4963e4a6487dcc772ffb67c"
+    },
+    "navigationUrls": [{
+            "positive": true,
+            "regex": "^\\/.*$"
+        },
+        {
+            "positive": false,
+            "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+        },
+        {
+            "positive": false,
+            "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+        },
+        {
+            "positive": false,
+            "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+        }
+    ]
+}
